@@ -1,0 +1,20 @@
+# .dockerignore for Frontend
+
+# Ignore node_modules directory
+node_modules
+package-lock.json
+
+# Ignore build output
+build
+dist
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore any logs
+*.log
+
+# Ignore Dockerfile and Docker-compose
+Dockerfile
+docker-compose.yml
