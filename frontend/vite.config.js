@@ -8,4 +8,11 @@ export default defineConfig({
     port:3004,
     strictPort: true,
   },
+  server: {
+    port: 3004,
+    strictPort: true,
+    host: true,
+    origin: 'http://0.0.0.0:3004'
+  
+  },
 })
