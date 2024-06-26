@@ -19,14 +19,13 @@ function App() {
   const classes = myStyles();
 
   return (
-    
     <BrowserRouter>
       <div className={classes.App}>
-      <Header />
+        <Header />
 
         <Routes>
-        <Route path="/" element={<HomePage/> } exact />
-        <Route path="/coins/:id" element={<CoinPage /> } exact />
+          <Route path="/" element={<HomePage />} exact />
+          <Route path="/coins/:id" element={<CoinPage />} exact />
         </Routes>
       </div>
     </BrowserRouter>
