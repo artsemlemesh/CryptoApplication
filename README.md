@@ -29,7 +29,7 @@ To get started with the CryptoApp frontend, follow these steps:
 
 1. **Clone the Repository:**
    ```sh
-   git clone (https://github.com/artsemlemesh/CryptoApplication.git)
+   git clone [https://github.com/artsemlemesh/CryptoApplication.git]
    ```
 
 2. **Navigate to the Project Directory:**
