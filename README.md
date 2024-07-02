@@ -44,10 +44,27 @@ To get started with the CryptoApp frontend, follow these steps:
 
 4. **Run the Application:**
    ```sh
-   npm start
+   npm run dev
    ```
 
-This will start the development server and open the application in your default web browser. The app will be running at `http://localhost:3000`.
+Alternative way: using docker
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/artsemlemesh/CryptoApplication.git
+   ```
+
+2. Navigate to the project directory:
+   ```sh
+   cd Car-rent-FB
+   ```
+
+3. Run the Docker containers:
+   ```sh
+   docker-compose up
+   ```
+
+This will start the development server and open the application in your default web browser. The app will be running at `http://localhost:3004`.
 
 ## Contact
 
