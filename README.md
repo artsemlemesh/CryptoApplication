@@ -56,7 +56,7 @@ Alternative way: using docker
 
 2. Navigate to the project directory:
    ```sh
-   cd Car-rent-FB
+   cd CryptoApplication
    ```
 
 3. Run the Docker containers:
